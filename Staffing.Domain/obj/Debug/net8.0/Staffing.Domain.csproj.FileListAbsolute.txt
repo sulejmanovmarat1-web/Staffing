@@ -1,0 +1,11 @@
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\bin\Debug\net8.0\Staffing.Domain.deps.json
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\bin\Debug\net8.0\Staffing.Domain.dll
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\bin\Debug\net8.0\Staffing.Domain.pdb
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\Staffing.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\Staffing.Domain.AssemblyInfoInputs.cache
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\Staffing.Domain.AssemblyInfo.cs
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\Staffing.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\Staffing.Domain.dll
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\refint\Staffing.Domain.dll
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\Staffing.Domain.pdb
+C:\Users\sulej\source\repos\Staffing\Staffing.Domain\obj\Debug\net8.0\ref\Staffing.Domain.dll

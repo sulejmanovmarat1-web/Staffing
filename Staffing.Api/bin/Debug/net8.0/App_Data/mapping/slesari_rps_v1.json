@@ -1,0 +1,218 @@
+{
+  "template_version": "v1",
+  "header_normalization": {
+    "trim": true,
+    "collapse_spaces": true,
+    "normalize_newlines": true
+  },
+  "date_rules": {
+    "extract_ddmmyyyy": "(\\d{2}\\.\\d{2}\\.\\d{4})"
+  },
+  "report_template_key": "slesari_rps",
+  "mappings": [
+    {
+      "header_path": "Филиалы/\\s*СП\\s*филиалов",
+      "metric_key": "__division_name__",
+      "unit": "text",
+      "date_binding": "none"
+    },
+    {
+      "header_path": "Потребность ноября\\s*/\\s*ФПКШ$",
+      "metric_key": "need_nov_fpks_count",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Потребность ноября\\s*/\\s*ФПКШ\\s*\\(привед\\)$",
+      "metric_key": "need_nov_fpks_norm_count",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Потребность ноября\\s*/\\s*ФПКОП$",
+      "metric_key": "need_nov_fpkop_count",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Потребность ноября\\s*/\\s*ФПКОП\\s*\\(привед\\)$",
+      "metric_key": "need_nov_fpkop_norm_count",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Потребность ноября\\s*/\\s*Фактически сложившаяся потребность$",
+      "metric_key": "need_nov_actual_need_count",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Потребность ноября\\s*/\\s*Фактическая численность на .*",
+      "metric_key": "need_nov_actual_headcount",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Потребность ноября\\s*/\\s*Укомп\\..*потреб\\.,%$",
+      "metric_key": "need_nov_staffing_pct",
+      "unit": "percent",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Списочная численность на .*",
+      "metric_key": "headcount_list",
+      "unit": "count",
+      "date_binding": "date_from_header"
+    },
+    {
+      "header_path": "Технологическая потребность августа 2024\\s*/\\s*Плановая ФПКШ$",
+      "metric_key": "tech_need_plan_fpks",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Технологическая потребность августа 2024\\s*/\\s*Оперативная ФПКОП$",
+      "metric_key": "tech_need_oper_fpkop",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Технологическая потребность августа 2024\\s*/\\s*Оперативная\\s*\\(приведенная\\)\\s*ФПКОП$",
+      "metric_key": "tech_need_oper_fpkop_norm",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Технологическая потребность августа 2024\\s*/\\s*Ук\\.\\%$",
+      "metric_key": "tech_need_aug_plan_staffing_pct",
+      "unit": "percent",
+      "date_binding": "report_date",
+      "col": 12
+    },
+    {
+      "header_path": "Технологическая потребность августа 2024\\s*/\\s*Ук\\.\\%$",
+      "metric_key": "tech_need_aug_oper_staffing_pct",
+      "unit": "percent",
+      "date_binding": "report_date",
+      "col": 14
+    },
+    {
+      "header_path": "Технологическая потребность августа 2024\\s*/\\s*Ук\\.\\%$",
+      "metric_key": "tech_need_aug_oper_norm_staffing_pct",
+      "unit": "percent",
+      "date_binding": "report_date",
+      "col": 16
+    },
+    {
+      "header_path": "дефицит ВСЕГО к оперативной потребности$",
+      "metric_key": "deficit_to_oper_need",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Новое задание по содержанию постоянного контингента.*",
+      "metric_key": "task_perm_contingent",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Штатное расписание по состоянию на 6 мая.*",
+      "metric_key": "staff_list_may_with_temp",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "%\\s*укомпл\\..*всего к штатному расписанию$",
+      "metric_key": "staffing_to_staff_list_total_pct",
+      "unit": "percent",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "штатн.*численность\\s*с\\s*01\\.05\\.2025\\s*/\\s*Оперативная ФПКОП$",
+      "metric_key": "staffing_01052025_oper_need",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "штатн.*численность\\s*с\\s*01\\.05\\.2025\\s*/\\s*Ук\\.\\%$",
+      "metric_key": "staffing_01052025_oper_pct",
+      "unit": "percent",
+      "date_binding": "report_date",
+      "col": 22
+    },
+    {
+      "header_path": "штатн.*численность\\s*с\\s*01\\.05\\.2025\\s*/\\s*штат$",
+      "metric_key": "staffing_01052025_staff",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "штатн.*численность\\s*с\\s*01\\.05\\.2025\\s*/\\s*в т\\.ч\\.\\s*временно на лето$",
+      "metric_key": "staffing_01052025_summer_temp",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "штатн.*численность\\s*с\\s*01\\.05\\.2025\\s*/\\s*Ук\\.\\%$",
+      "metric_key": "staffing_01052025_staff_pct",
+      "unit": "percent",
+      "date_binding": "report_date",
+      "col": 25
+    },
+    {
+      "header_path": "Штатное расписание с врем\\..*",
+      "metric_key": "staff_list_with_temp",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "%\\s*укомпл\\..*к штатному расписанию с врем\\..*",
+      "metric_key": "staffing_to_staff_list_with_temp_pct",
+      "unit": "percent",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Планируемый прием к\\s*30\\s*сентября\\s*/\\s*вольный найм$",
+      "metric_key": "hire_plan_sep30_free_hire",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Планируемый прием к\\s*30\\s*сентября$",
+      "metric_key": "hire_plan_sep30_total",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Планируемый прием к\\s*30\\s*сентября\\s*/\\s*студенты на практику$",
+      "metric_key": "hire_plan_sep30_students_practice",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Планируемый прием к\\s*30\\s*сентября\\s*/\\s*группы подготовки$",
+      "metric_key": "hire_plan_sep30_training_groups",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "ожидаемый отток к\\s*30\\s*сентября$",
+      "metric_key": "expected_outflow_sep30",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "Ожидаемое восполнение к\\s*30\\s*сентября$",
+      "metric_key": "expected_replenishment_sep30",
+      "unit": "count",
+      "date_binding": "report_date"
+    },
+    {
+      "header_path": "%\\s*укомлектованности к\\s*30\\s*сентября$",
+      "metric_key": "staffing_pct_sep30",
+      "unit": "percent",
+      "date_binding": "report_date",
+      "col": 36
+    }
+  ]
+}

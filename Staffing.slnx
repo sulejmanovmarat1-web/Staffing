@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Staffing.Api/Staffing.Api.csproj" />
+  <Project Path="Staffing.Application/Staffing.Application.csproj" />
+  <Project Path="Staffing.Domain/Staffing.Domain.csproj" />
+  <Project Path="Staffing.Infrastructure/Staffing.Infrastructure.csproj" />
+  <Project Path="Staffing.Tests/Staffing.Tests.csproj" Id="46422076-f68f-437a-8d08-430b0735d796" />
+</Solution>

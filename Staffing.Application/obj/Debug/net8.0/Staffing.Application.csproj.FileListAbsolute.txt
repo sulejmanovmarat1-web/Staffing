@@ -1,0 +1,15 @@
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\bin\Debug\net8.0\Staffing.Application.deps.json
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\bin\Debug\net8.0\Staffing.Application.dll
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\bin\Debug\net8.0\Staffing.Application.pdb
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\bin\Debug\net8.0\Staffing.Domain.dll
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\bin\Debug\net8.0\Staffing.Domain.pdb
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.Application.csproj.AssemblyReference.cache
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.Application.AssemblyInfoInputs.cache
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.Application.AssemblyInfo.cs
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.Application.csproj.CoreCompileInputs.cache
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.4C67A709.Up2Date
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.Application.dll
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\refint\Staffing.Application.dll
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\Staffing.Application.pdb
+C:\Users\sulej\source\repos\Staffing\Staffing.Application\obj\Debug\net8.0\ref\Staffing.Application.dll
